@@ -1,0 +1,42 @@
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer ul {
+  padding: 30px;
+}
+
+.footer ul li {
+  list-style: none;
+  opacity: 0.5;
+}
+
+.footer ul a,
+.footer h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
+.footer h3 {
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  opacity: 0.5;
+  
+}
+
+.footer h3:hover {
+  opacity: 1;
+}
+
+@media (min-width: 758px) {
+  .footerLinks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
